@@ -127,6 +127,7 @@ textarea {
 }
 
 .main-flex-wrapper {
+    min-height: 80vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
@@ -233,11 +234,16 @@ textarea {
 
 /* .thread-post {} */
 
+
 .thread-comment {
     padding-top: 10px;
     line-height: 1.3rem;
     border-top: 1px rgb(170, 170, 170) solid;
     margin-top: 20px;
+}
+
+.thread-comment p {
+    display: block;
 }
 
 .thread-comment p {
